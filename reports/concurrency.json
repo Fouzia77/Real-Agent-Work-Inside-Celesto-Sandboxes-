@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "sandbox_name": "sbx-conc0000abcd",
+      "started_at": "2026-10-22T09:10:00+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc0001abcd",
+      "started_at": "2026-10-22T09:11:00+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc0002abcd",
+      "started_at": "2026-10-22T09:12:00+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc0003abcd",
+      "started_at": "2026-10-22T09:13:00+00:00"
+    },
+    {
+      "sandbox_name": "sbx-conc0004abcd",
+      "started_at": "2026-10-22T09:14:00+00:00"
+    }
+  ],
+  "breakage_notes": "Concurrency entries are planning fixtures, not five observed simultaneous cloud jobs. The free trial may allow only one retained sandbox, so verify provider limits, unique-name handling, rate limits, shared log writes, and cost before claiming a live concurrency result."
+}

@@ -1,0 +1,6 @@
+{
+  "who": "Small engineering teams and student developers need to verify agent-generated changes without allowing untrusted commands to run on their laptop or application server.",
+  "agent_work": "The agent creates a small proof artifact, reads it back, computes a checksum, and records every proposed command before dispatching allowed work to an isolated Celesto computer.",
+  "proof_output": "A guest-created proof.txt with verified contents and a SHA-256 checksum, plus an auditable run record.",
+  "idea_source": "idea_bank"
+}

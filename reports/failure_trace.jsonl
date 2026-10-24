@@ -1,0 +1,3 @@
+{"ts": "2026-10-22T09:00:00Z", "event": "step_started", "step": 7, "sandbox_name": "sbx-faildemo01"}
+{"ts": "2026-10-22T09:00:01Z", "event": "step_failed", "step": 7, "sandbox_name": "sbx-faildemo01", "reason": "injected deterministic failure fixture"}
+{"ts": "2026-10-22T09:00:02Z", "event": "policy_applied", "policy": "fresh", "failed_step": 7, "old_sandbox": "sbx-faildemo01", "next_action": "delete old guest and create unique guest"}

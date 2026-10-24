@@ -1,0 +1,173 @@
+{
+  "evaluation_mode": "structural_fixture_not_live_celesto_runs",
+  "note": "These are deterministic fixture rows for validating report schema only; they are NOT evidence of 20 live Celesto runs. Run scripts/run_eval.py with a real Celesto Cloud key to replace them with measured runs.",
+  "run_count": 20,
+  "runs": [
+    {
+      "sandbox_name": "sbx-demo0001abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.2,
+      "boot_to_ready_s": 0.65,
+      "cost_usd": 1.7e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0002abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.51,
+      "boot_to_ready_s": 0.72,
+      "cost_usd": 1.9e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0003abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 4.82,
+      "boot_to_ready_s": 0.79,
+      "cost_usd": 2e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0004abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.13,
+      "boot_to_ready_s": 0.86,
+      "cost_usd": 2.1e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0005abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.44,
+      "boot_to_ready_s": 0.93,
+      "cost_usd": 2.3e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0006abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 5.75,
+      "boot_to_ready_s": 0.65,
+      "cost_usd": 2.4e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0007abcd",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 6.06,
+      "boot_to_ready_s": 0.72,
+      "cost_usd": 2.5e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0008abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 6.37,
+      "boot_to_ready_s": 0.79,
+      "cost_usd": 2.7e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0009abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 6.68,
+      "boot_to_ready_s": 0.86,
+      "cost_usd": 2.8e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0010abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 6.99,
+      "boot_to_ready_s": 0.93,
+      "cost_usd": 2.9e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0011abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 7.3,
+      "boot_to_ready_s": 0.65,
+      "cost_usd": 3e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0012abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 7.61,
+      "boot_to_ready_s": 0.72,
+      "cost_usd": 3.2e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0013abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 7.92,
+      "boot_to_ready_s": 0.79,
+      "cost_usd": 3.3e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0014abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 8.23,
+      "boot_to_ready_s": 0.86,
+      "cost_usd": 3.4e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0015abcd",
+      "fresh": true,
+      "success": false,
+      "wall_clock_s": 8.54,
+      "boot_to_ready_s": 0.93,
+      "cost_usd": 3.6e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0016abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 8.85,
+      "boot_to_ready_s": 0.65,
+      "cost_usd": 3.7e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0017abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 9.16,
+      "boot_to_ready_s": 0.72,
+      "cost_usd": 3.8e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0018abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 9.47,
+      "boot_to_ready_s": 0.79,
+      "cost_usd": 3.9e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0019abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 9.78,
+      "boot_to_ready_s": 0.86,
+      "cost_usd": 4.1e-05
+    },
+    {
+      "sandbox_name": "sbx-demo0020abcd",
+      "fresh": true,
+      "success": true,
+      "wall_clock_s": 10.09,
+      "boot_to_ready_s": 0.93,
+      "cost_usd": 4.2e-05
+    }
+  ],
+  "success_rate": 0.9,
+  "median_wall_clock_s": 7.145,
+  "p90_wall_clock_s": 9.47,
+  "median_boot_to_ready_s": 0.79,
+  "total_cost_usd": 0.000595,
+  "postmortem_path": "reports/postmortem.md"
+}

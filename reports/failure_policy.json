@@ -1,0 +1,7 @@
+{
+  "failed_step": 7,
+  "total_steps": 10,
+  "policy": "fresh",
+  "rationale": "When step 7 fails, discard the partially modified guest and start a uniquely named fresh sandbox for the retry. This avoids carrying corrupted files or unknown process state into later steps and is simpler to audit than attempting an unverified in-place repair. The trade-off is extra boot time and possible provider cost; preserve the failed run row and command log before cleanup, and never describe the retry as the same fresh evaluation attempt.",
+  "trace_path": "reports/failure_trace.jsonl"
+}

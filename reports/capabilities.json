@@ -1,0 +1,19 @@
+{
+  "capabilities": [
+    {
+      "id": "safety_hooks",
+      "why": "A deterministic allowlist and deny-pattern gate audits each requested command and blocks dangerous or unknown shell commands before the Celesto guest sees them. This reduces prompt-injection impact and creates evidence for the containment test.",
+      "evidence_path": "app/security.py"
+    },
+    {
+      "id": "persistence",
+      "why": "The Celesto SDK computer context is the isolated workspace boundary for real commands and files; the SDK manages the guest lifecycle while the run ledger stores durable audit metadata separately. The guest is not replaced by host subprocess execution.",
+      "evidence_path": "app/celesto_executor.py"
+    },
+    {
+      "id": "network_policy",
+      "why": "The agent avoids giving the guest secrets and uses a narrow command allowlist that blocks common outbound exfiltration patterns; for production, configure the provider's network policy to off or a strict allowlist before handling untrusted pages.",
+      "evidence_path": "app/security.py"
+    }
+  ]
+}

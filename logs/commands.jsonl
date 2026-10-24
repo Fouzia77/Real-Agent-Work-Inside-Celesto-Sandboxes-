@@ -1,0 +1,27 @@
+{"ts": "2026-10-22T09:00:00+00:00", "sandbox_name": "sbx-demo0001abcd", "command": "cat .env", "decision": "block", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T09:01:00+00:00", "sandbox_name": "sbx-demo0002abcd", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T09:02:00+00:00", "sandbox_name": "sbx-demo0003abcd", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T09:03:00+00:00", "sandbox_name": "sbx-demo0004abcd", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-22T09:04:00+00:00", "sandbox_name": "sbx-demo0005abcd", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T03:20:02.953321+00:00", "sandbox_name": "sbx-824145d32822", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T03:20:07.291101+00:00", "sandbox_name": "sbx-824145d32822", "command": "mkdir -p /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T03:20:11.889319+00:00", "sandbox_name": "sbx-824145d32822", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T03:20:15.823883+00:00", "sandbox_name": "sbx-824145d32822", "command": "cat /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T03:20:19.764366+00:00", "sandbox_name": "sbx-824145d32822", "command": "sha256sum /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T16:15:05.668292+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T16:15:09.205588+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "mkdir -p /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T16:15:17.190296+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T16:15:21.663008+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "cat /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-23T16:15:26.933370+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "sha256sum /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:49:35.237025+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:50:27.565771+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:50:49.405429+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:50:52.858406+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "mkdir -p /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:50:55.978587+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:51:01.217546+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "cat /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T04:51:06.208542+00:00", "sandbox_name": "sbx-dbbfc6d0ddc5", "command": "sha256sum /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T05:35:19.556331+00:00", "sandbox_name": "sbx-82dac5c4a5d2", "command": "pwd", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T05:35:22.865897+00:00", "sandbox_name": "sbx-82dac5c4a5d2", "command": "mkdir -p /workspace", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T05:35:26.508787+00:00", "sandbox_name": "sbx-82dac5c4a5d2", "command": "printf 'celesto sandbox proof\\n' > /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T05:35:30.302936+00:00", "sandbox_name": "sbx-82dac5c4a5d2", "command": "cat /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}
+{"ts": "2026-10-24T05:35:35.261249+00:00", "sandbox_name": "sbx-82dac5c4a5d2", "command": "sha256sum /workspace/proof.txt", "decision": "allow", "execution_target": "celesto_sandbox"}

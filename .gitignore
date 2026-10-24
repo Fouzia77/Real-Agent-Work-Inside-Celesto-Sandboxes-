@@ -1,0 +1,46 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Local databases and generated database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local environment files
+.python-version
